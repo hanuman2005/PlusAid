@@ -1,0 +1,24 @@
+body {
+  background-color: #fdfdfd;
+  font-family: 'Segoe UI', sans-serif;
+}
+.card {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+body.dark-mode .card {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+body.dark-mode .modal-content {
+  background-color: #1f1f1f;
+  color: #ffffff;
+}

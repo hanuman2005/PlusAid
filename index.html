@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PulseAid - Emergency Health Assistant</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-danger p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">🆘 PulseAid</a>
+        <select id="languageSelect" class="form-select w-auto ms-auto me-2">
+          <option value="en">English</option>
+          <option value="te">తెలుగు</option>
+        </select>
+
+        <div class="form-check form-switch text-white">
+          <input class="form-check-input" type="checkbox" id="darkSwitch" />
+          <label class="form-check-label" for="darkSwitch">Dark Mode</label>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-4">
+      <h2 class="text-center mb-4">Select Emergency</h2>
+      <div class="row" id="emergencyGrid">
+        <!-- Cards will be injected via JS -->
+      </div>
+    </div>
+
+    <div class="modal fade" id="guideModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+          <div class="modal-header bg-danger text-white">
+            <h5 class="modal-title" id="guideTitle">Emergency Guide</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body" id="guideContent">
+            <!-- Dynamic content here -->
+          </div>
+          <button
+            class="btn btn-sm btn-outline-danger mt-3"
+            onclick="stopVoice()"
+          >
+            🔇 Stop Voice
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

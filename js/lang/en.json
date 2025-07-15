@@ -1,0 +1,99 @@
+[
+  {
+    "title": "CPR",
+    "desc": "Cardiopulmonary Resuscitation for unconscious victims.",
+    "steps": [
+      "Check responsiveness and breathing.",
+      "Call emergency number immediately.",
+      "Start 30 chest compressions.",
+      "Give 2 rescue breaths.",
+      "Repeat until help arrives."
+    ]
+  },
+  {
+    "title": "Choking",
+    "desc": "Airway blockage due to food or object.",
+    "steps": [
+      "Ask 'Are you choking?'",
+      "If yes and can't speak — do 5 back blows.",
+      "Then 5 abdominal thrusts (Heimlich maneuver).",
+      "Repeat until object is dislodged."
+    ]
+  },
+  {
+    "title": "Severe Bleeding",
+    "desc": "Uncontrolled bleeding situation.",
+    "steps": [
+      "Apply direct pressure to the wound.",
+      "Use clean cloth or bandage.",
+      "Keep applying pressure — do not remove cloth.",
+      "Raise the limb if possible.",
+      "Call emergency services."
+    ]
+  },
+  {
+    "title": "Burns",
+    "desc": "Treatment for minor and major burns.",
+    "steps": [
+      "Cool the burn under running water for 10-20 minutes.",
+      "Remove tight items (rings, belts).",
+      "Cover with sterile gauze, not cotton.",
+      "Do not break blisters.",
+      "Call for emergency help if severe."
+    ]
+  },
+  {
+    "title": "Stroke",
+    "desc": "Recognize and respond to stroke symptoms.",
+    "steps": [
+      "Use FAST: Face drooping, Arm weakness, Speech difficulty, Time to call help.",
+      "Keep them calm and still.",
+      "Note the time symptoms started.",
+      "Call emergency services immediately."
+    ]
+  },
+  {
+    "title": "Seizures",
+    "desc": "What to do during a seizure.",
+    "steps": [
+      "Stay calm. Do not restrain them.",
+      "Clear surroundings to prevent injury.",
+      "Turn them gently on one side.",
+      "Place something soft under head.",
+      "Call for help if lasts more than 5 minutes."
+    ]
+  },
+  {
+    "title": "Heart Attack",
+    "desc": "Sudden chest pain, shortness of breath, possible cardiac arrest.",
+    "steps": [
+      "Call emergency services immediately.",
+      "Keep the person calm and seated upright.",
+      "Loosen tight clothing.",
+      "If available, give aspirin (unless allergic).",
+      "Start CPR if the person loses consciousness and stops breathing."
+    ]
+  },
+  {
+    "title": "Electric Shock",
+    "desc": "Person injured due to contact with electric current.",
+    "steps": [
+      "Do not touch them directly — turn off power first.",
+      "Call emergency services immediately.",
+      "Check for breathing and pulse.",
+      "Start CPR if necessary.",
+      "Treat burns with cool cloth but avoid ice or ointments."
+    ]
+  },
+  {
+    "title": "Poisoning",
+    "desc": "Accidental or intentional ingestion of toxic substance.",
+    "steps": [
+      "Do not induce vomiting unless advised by medical personnel.",
+      "Call poison control or emergency services immediately.",
+      "Try to identify the poison (container, label, etc.).",
+      "Keep the person calm and monitor breathing.",
+      "Turn them on their side if vomiting occurs."
+    ]
+  }
+]
